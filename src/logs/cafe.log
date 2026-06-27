@@ -1,3 +1,146 @@
 2026-06-27 16:05:55 [INFO] Application started
 2026-06-27 16:05:55 [WARNING] Low coffee beans
 2026-06-27 16:05:55 [ERROR] Coffee machine failure
+2026-06-27 17:07:55 [INFO] Producer-2 created Order #3
+2026-06-27 17:07:55 [INFO] Producer-3 created Order #2
+2026-06-27 17:07:55 [INFO] Producer-1 created Order #1
+2026-06-27 17:07:55 [INFO] [QUEUE] Added Order #2
+2026-06-27 17:07:55 [INFO] [QUEUE] Added Order #3
+2026-06-27 17:07:55 [INFO] [QUEUE] Added Order #1
+2026-06-27 17:07:56 [INFO] Producer-2 created Order #4
+2026-06-27 17:07:56 [INFO] [QUEUE] Added Order #4
+2026-06-27 17:07:56 [INFO] Producer-3 created Order #5
+2026-06-27 17:07:56 [INFO] [QUEUE] Added Order #5
+2026-06-27 17:07:57 [INFO] Producer-1 created Order #6
+2026-06-27 17:07:57 [INFO] [QUEUE] Added Order #6
+2026-06-27 17:07:57 [INFO] Producer-2 created Order #7
+2026-06-27 17:07:57 [INFO] [QUEUE] Added Order #7
+2026-06-27 17:07:58 [INFO] Producer-1 created Order #8
+2026-06-27 17:07:58 [INFO] [QUEUE] Added Order #8
+2026-06-27 17:07:58 [INFO] Producer-3 created Order #9
+2026-06-27 17:07:58 [INFO] [QUEUE] Added Order #9
+2026-06-27 17:07:59 [INFO] Producer-2 created Order #10
+2026-06-27 17:07:59 [INFO] [QUEUE] Added Order #10
+2026-06-27 17:07:59 [INFO] Producer-1 created Order #11
+2026-06-27 17:07:59 [INFO] Producer-3 created Order #12
+2026-06-27 17:08:00 [INFO] Producer-2 created Order #13
+2026-06-27 18:49:37 [INFO] Producer-2 registered Order #3
+2026-06-27 18:49:37 [INFO] Producer-3 registered Order #2
+2026-06-27 18:49:37 [INFO] Producer-1 registered Order #1
+2026-06-27 18:49:37 [INFO] [QUEUE] Order #2 entered queue. Queue: 3/10
+2026-06-27 18:49:37 [INFO] [QUEUE] Order #1 entered queue. Queue: 3/10
+2026-06-27 18:49:37 [INFO] Producer-1 accepted Order #1
+2026-06-27 18:49:37 [INFO] [QUEUE] Order #3 entered queue. Queue: 3/10
+2026-06-27 18:49:37 [INFO] Producer-2 accepted Order #3
+2026-06-27 18:49:37 [INFO] Producer-3 accepted Order #2
+2026-06-27 18:49:37 [INFO] Producer-2 registered Order #4
+2026-06-27 18:49:37 [INFO] [QUEUE] Order #4 entered queue. Queue: 4/10
+2026-06-27 18:49:37 [INFO] Producer-2 accepted Order #4
+2026-06-27 18:49:38 [INFO] Producer-3 registered Order #5
+2026-06-27 18:49:38 [INFO] [QUEUE] Order #5 entered queue. Queue: 5/10
+2026-06-27 18:49:38 [INFO] Producer-3 accepted Order #5
+2026-06-27 18:49:38 [INFO] Producer-1 registered Order #6
+2026-06-27 18:49:38 [INFO] [QUEUE] Order #6 entered queue. Queue: 6/10
+2026-06-27 18:49:38 [INFO] Producer-1 accepted Order #6
+2026-06-27 18:49:38 [INFO] Producer-2 registered Order #7
+2026-06-27 18:49:38 [INFO] [QUEUE] Order #7 entered queue. Queue: 7/10
+2026-06-27 18:49:38 [INFO] Producer-2 accepted Order #7
+2026-06-27 18:49:39 [INFO] Producer-1 registered Order #8
+2026-06-27 18:49:39 [INFO] [QUEUE] Order #8 entered queue. Queue: 8/10
+2026-06-27 18:49:39 [INFO] Producer-1 accepted Order #8
+2026-06-27 18:49:39 [INFO] Producer-3 registered Order #9
+2026-06-27 18:49:39 [INFO] [QUEUE] Order #9 entered queue. Queue: 9/10
+2026-06-27 18:49:39 [INFO] Producer-3 accepted Order #9
+2026-06-27 18:49:40 [INFO] Producer-1 registered Order #10
+2026-06-27 18:49:40 [INFO] [QUEUE] Order #10 entered queue. Queue: 10/10
+2026-06-27 18:49:40 [INFO] Producer-1 accepted Order #10
+2026-06-27 19:02:07 [INFO] Producer-2 registered Order #2
+2026-06-27 19:02:07 [INFO] Producer-3 registered Order #3
+2026-06-27 19:02:07 [INFO] Producer-1 registered Order #1
+2026-06-27 19:02:07 [INFO] [QUEUE] Order #1 entered queue. Queue: 3/10
+2026-06-27 19:02:07 [INFO] [QUEUE] Order #3 entered queue. Queue: 2/10
+2026-06-27 19:02:07 [INFO] [QUEUE] Order #2 entered queue. Queue: 1/10
+2026-06-27 19:02:07 [INFO] Producer-2 accepted Order #2
+2026-06-27 19:02:07 [INFO] Producer-3 accepted Order #3
+2026-06-27 19:02:07 [INFO] Producer-1 accepted Order #1
+2026-06-27 19:02:08 [INFO] Producer-3 registered Order #4
+2026-06-27 19:02:08 [INFO] [QUEUE] Order #4 entered queue. Queue: 4/10
+2026-06-27 19:02:08 [INFO] Producer-3 accepted Order #4
+2026-06-27 19:02:08 [INFO] Producer-1 registered Order #5
+2026-06-27 19:02:08 [INFO] [QUEUE] Order #5 entered queue. Queue: 5/10
+2026-06-27 19:02:08 [INFO] Producer-1 accepted Order #5
+2026-06-27 19:02:09 [INFO] Producer-2 registered Order #6
+2026-06-27 19:02:09 [INFO] [QUEUE] Order #6 entered queue. Queue: 6/10
+2026-06-27 19:02:09 [INFO] Producer-2 accepted Order #6
+2026-06-27 19:02:09 [INFO] Producer-3 registered Order #7
+2026-06-27 19:02:09 [INFO] [QUEUE] Order #7 entered queue. Queue: 7/10
+2026-06-27 19:02:09 [INFO] Producer-3 accepted Order #7
+2026-06-27 19:02:09 [INFO] Producer-1 registered Order #8
+2026-06-27 19:02:09 [INFO] [QUEUE] Order #8 entered queue. Queue: 8/10
+2026-06-27 19:02:09 [INFO] Producer-1 accepted Order #8
+2026-06-27 19:02:10 [INFO] Producer-2 registered Order #9
+2026-06-27 19:02:10 [INFO] [QUEUE] Order #9 entered queue. Queue: 9/10
+2026-06-27 19:02:10 [INFO] Producer-2 accepted Order #9
+2026-06-27 19:02:10 [INFO] Producer-3 registered Order #10
+2026-06-27 19:02:10 [INFO] [QUEUE] Order #10 entered queue. Queue: 10/10
+2026-06-27 19:02:10 [INFO] Producer-3 accepted Order #10
+2026-06-27 19:04:19 [INFO] Producer-3 registered Order #2
+2026-06-27 19:04:19 [INFO] Producer-2 registered Order #3
+2026-06-27 19:04:19 [INFO] Producer-1 registered Order #1
+2026-06-27 19:04:19 [INFO] [QUEUE] Order #2 entered queue. Queue: 1/10
+2026-06-27 19:04:19 [INFO] [QUEUE] Order #3 entered queue. Queue: 2/10
+2026-06-27 19:04:19 [INFO] [QUEUE] Order #1 entered queue. Queue: 3/10
+2026-06-27 19:04:20 [INFO] Producer-2 registered Order #4
+2026-06-27 19:04:20 [INFO] [QUEUE] Order #4 entered queue. Queue: 4/10
+2026-06-27 19:04:20 [INFO] Producer-3 registered Order #5
+2026-06-27 19:04:20 [INFO] [QUEUE] Order #5 entered queue. Queue: 5/10
+2026-06-27 19:04:21 [INFO] Producer-2 registered Order #6
+2026-06-27 19:04:21 [INFO] [QUEUE] Order #6 entered queue. Queue: 6/10
+2026-06-27 19:04:21 [INFO] Producer-1 registered Order #7
+2026-06-27 19:04:21 [INFO] [QUEUE] Order #7 entered queue. Queue: 7/10
+2026-06-27 19:04:22 [INFO] Producer-2 registered Order #8
+2026-06-27 19:04:22 [INFO] [QUEUE] Order #8 entered queue. Queue: 8/10
+2026-06-27 19:04:22 [INFO] Producer-3 registered Order #9
+2026-06-27 19:04:22 [INFO] [QUEUE] Order #9 entered queue. Queue: 9/10
+2026-06-27 19:04:22 [INFO] Producer-1 registered Order #10
+2026-06-27 19:04:22 [INFO] [QUEUE] Order #10 entered queue. Queue: 10/10
+2026-06-27 19:12:09 [INFO] [ORDER] Producer-1 registered Order #2 | Customer: Customer-2 | Drink: ESPRESSO | Priority: LOW
+2026-06-27 19:12:09 [INFO] [ORDER] Producer-3 registered Order #3 | Customer: Customer-3 | Drink: AMERICANO | Priority: LOW
+2026-06-27 19:12:09 [INFO] [ORDER] Producer-2 registered Order #1 | Customer: Customer-1 | Drink: CAPPUCCINO | Priority: LOW
+2026-06-27 19:12:09 [INFO] [QUEUE] Order #2 entered queue | Size: 3/10
+2026-06-27 19:12:09 [INFO] [QUEUE] Order #3 entered queue | Size: 2/10
+2026-06-27 19:12:09 [INFO] [QUEUE] Order #1 entered queue | Size: 1/10
+2026-06-27 19:12:09 [INFO] [ORDER] Producer-3 registered Order #4 | Customer: Customer-4 | Drink: CAPPUCCINO | Priority: LOW
+2026-06-27 19:12:09 [INFO] [QUEUE] Order #4 entered queue | Size: 4/10
+2026-06-27 19:12:10 [INFO] [ORDER] Producer-1 registered Order #5 | Customer: Customer-5 | Drink: AMERICANO | Priority: HIGH
+2026-06-27 19:12:10 [INFO] [QUEUE] Order #5 entered queue | Size: 5/10
+2026-06-27 19:12:10 [INFO] [ORDER] Producer-2 registered Order #6 | Customer: Customer-6 | Drink: CAPPUCCINO | Priority: LOW
+2026-06-27 19:12:10 [INFO] [QUEUE] Order #6 entered queue | Size: 6/10
+2026-06-27 19:12:10 [INFO] [ORDER] Producer-3 registered Order #7 | Customer: Customer-7 | Drink: AMERICANO | Priority: HIGH
+2026-06-27 19:12:10 [INFO] [QUEUE] Order #7 entered queue | Size: 7/10
+2026-06-27 19:12:10 [INFO] [ORDER] Producer-1 registered Order #8 | Customer: Customer-8 | Drink: LATTE | Priority: MEDIUM
+2026-06-27 19:12:10 [INFO] [QUEUE] Order #8 entered queue | Size: 8/10
+2026-06-27 19:12:11 [INFO] [ORDER] Producer-2 registered Order #9 | Customer: Customer-9 | Drink: ESPRESSO | Priority: HIGH
+2026-06-27 19:12:11 [INFO] [QUEUE] Order #9 entered queue | Size: 9/10
+2026-06-27 19:12:11 [INFO] [ORDER] Producer-1 registered Order #10 | Customer: Customer-10 | Drink: CAPPUCCINO | Priority: HIGH
+2026-06-27 19:12:11 [INFO] [QUEUE] Order #10 entered queue | Size: 10/10
+2026-06-27 19:17:35 [INFO] Producer-3 registered Order #2 (Customer-2, ESPRESSO, LOW)
+2026-06-27 19:17:35 [INFO] Producer-2 registered Order #3 (Customer-3, ESPRESSO, MEDIUM)
+2026-06-27 19:17:35 [INFO] Producer-1 registered Order #1 (Customer-1, LATTE, MEDIUM)
+2026-06-27 19:17:35 [INFO] [QUEUE] Order #2 entered queue. Queue: 2/10
+2026-06-27 19:17:35 [INFO] [QUEUE] Order #1 entered queue. Queue: 1/10
+2026-06-27 19:17:35 [INFO] [QUEUE] Order #3 entered queue. Queue: 3/10
+2026-06-27 19:17:35 [INFO] Producer-3 registered Order #4 (Customer-4, CAPPUCCINO, LOW)
+2026-06-27 19:17:35 [INFO] [QUEUE] Order #4 entered queue. Queue: 4/10
+2026-06-27 19:17:36 [INFO] Producer-1 registered Order #5 (Customer-5, LATTE, MEDIUM)
+2026-06-27 19:17:36 [INFO] [QUEUE] Order #5 entered queue. Queue: 5/10
+2026-06-27 19:17:36 [INFO] Producer-3 registered Order #6 (Customer-6, LATTE, LOW)
+2026-06-27 19:17:36 [INFO] [QUEUE] Order #6 entered queue. Queue: 6/10
+2026-06-27 19:17:36 [INFO] Producer-2 registered Order #7 (Customer-7, ESPRESSO, LOW)
+2026-06-27 19:17:36 [INFO] [QUEUE] Order #7 entered queue. Queue: 7/10
+2026-06-27 19:17:37 [INFO] Producer-1 registered Order #8 (Customer-8, ESPRESSO, LOW)
+2026-06-27 19:17:37 [INFO] [QUEUE] Order #8 entered queue. Queue: 8/10
+2026-06-27 19:17:37 [INFO] Producer-3 registered Order #9 (Customer-9, AMERICANO, HIGH)
+2026-06-27 19:17:37 [INFO] [QUEUE] Order #9 entered queue. Queue: 9/10
+2026-06-27 19:17:37 [INFO] Producer-2 registered Order #10 (Customer-10, ESPRESSO, HIGH)
+2026-06-27 19:17:37 [INFO] [QUEUE] Order #10 entered queue. Queue: 10/10

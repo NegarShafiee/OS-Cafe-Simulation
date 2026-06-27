@@ -2,6 +2,7 @@ package queue;
 
 import model.Order;
 import logger.Logger;
+import factory.OrderFactory;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -21,21 +22,47 @@ public class OrderQueue {
 
     private final Lock queueLock = new ReentrantLock();
 
-    public void addOrder(Order order) throws InterruptedException {
+    public Order registerOrder(String producerName) throws InterruptedException {
 
         emptySlots.acquire();
 
+        Order order = OrderFactory.createOrder();
+
+        if (order == null) {
+            emptySlots.release();
+            return null;
+        }
+        int currentSize;
         queueLock.lock();
 
         try {
             queue.add(order);
-        }
-        finally {
+            currentSize = queue.size();
+        } finally {
             queueLock.unlock();
         }
 
-        Logger.info("[QUEUE] Added Order #" + order.getOrderId());
+        Logger.info(
+                producerName +
+                        " registered Order #" +
+                        order.getOrderId() +
+                        " (" + order.getCustomerName() +
+                        ", " + order.getDrinkType() +
+                        ", " + order.getPriority() + ")"
+        );
+
+        Logger.info(
+                "[QUEUE] Order #" +
+                        order.getOrderId() +
+                        " entered queue. Queue: " +
+                        currentSize +
+                        "/" +
+                        CAPACITY
+        );
+
         fullSlots.release();
+
+        return order;
     }
 
     public Order takeOrder() throws InterruptedException {
@@ -43,17 +70,27 @@ public class OrderQueue {
         fullSlots.acquire();
 
         Order order;
-
+        int currentSize;
         queueLock.lock();
 
         try {
             order = queue.poll();
+            currentSize = queue.size();
         }
         finally {
             queueLock.unlock();
         }
 
         Logger.info("[QUEUE] Removed Order #" + order.getOrderId());
+
+        Logger.info(
+                "[QUEUE] Order #" +
+                        order.getOrderId() +
+                        " removed from queue. Current queue: " +
+                        currentSize +
+                        "/" +
+                        CAPACITY
+        );
 
         emptySlots.release();
 
