@@ -15,13 +15,12 @@ public class OrderQueue {
 
     private final Queue<Order> queue = new LinkedList<>();
 
-    private final Semaphore emptySlots =
-            new Semaphore(CAPACITY);
+    private final Semaphore emptySlots = new Semaphore(CAPACITY);
 
-    private final Semaphore fullSlots =
-            new Semaphore(0);
+    private final Semaphore fullSlots = new Semaphore(0);
 
     private final Lock queueLock = new ReentrantLock();
+
     public void addOrder(Order order) throws InterruptedException {
 
         emptySlots.acquire();
@@ -35,8 +34,7 @@ public class OrderQueue {
             queueLock.unlock();
         }
 
-        Logger.log("[QUEUE] Added Order #" + order.getOrderId());
-
+        Logger.info("[QUEUE] Added Order #" + order.getOrderId());
         fullSlots.release();
     }
 
@@ -55,7 +53,7 @@ public class OrderQueue {
             queueLock.unlock();
         }
 
-        Logger.log("[QUEUE] Removed Order #" + order.getOrderId());
+        Logger.info("[QUEUE] Removed Order #" + order.getOrderId());
 
         emptySlots.release();
 
