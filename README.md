@@ -124,16 +124,14 @@ At the end of execution the program reports:
 
 ---
 
-## How to Run
+## Running the Project
 
-Compile and run:
-
-```
-Main.java
-```
-
-The simulation automatically starts all producer, barista, and supplier threads and prints the final report after completion.
-
+1. Open the project in IntelliJ IDEA (or any Java IDE).
+2. Compile the project.
+3. Run Main.java.
+4. The simulation starts automatically.
+5. After all orders are processed, the program prints the final report and terminates gracefully.
+   
 ---
 
 ## Author
@@ -141,4 +139,5 @@ The simulation automatically starts all producer, barista, and supplier threads 
 Negar Shafiee
 
 Operating Systems Course Project
-Spring 2026
+
+Spring 2026 - 1405
