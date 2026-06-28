@@ -28,7 +28,7 @@ public class Logger {
             }
 
             writer = new BufferedWriter(
-                    new FileWriter(LOG_FILE, true) // true: new logs append to old logs
+                    new FileWriter(LOG_FILE, false) // true: new logs append to old logs
                                                           // false: start with clear log file
             );
 

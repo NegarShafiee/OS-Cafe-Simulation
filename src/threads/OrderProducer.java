@@ -1,6 +1,5 @@
 package threads;
 
-import factory.OrderFactory;
 import logger.Logger;
 import model.Order;
 import queue.OrderQueue;

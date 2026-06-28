@@ -61,37 +61,6 @@ public class Inventory {
                 && (milk - requiredMilk(order) >= MIN_MILK)
                 && (cups - requiredCup(order) >= MIN_CUPS);
     }
-//
-//    public synchronized void takeIngredients(String baristaName, Order order
-//    ) throws InterruptedException {
-//
-//        while (!hasEnoughIngredients(order)) {
-//
-//            Logger.info(
-//                    "[INVENTORY] " +
-//                            baristaName +
-//                            " waiting for ingredients..."
-//            );
-//
-//            wait();
-//        }
-//
-//        coffeeBeans -= requiredCoffee(order);
-//        milk -= requiredMilk(order);
-//        cups -= requiredCup(order);
-//
-//        Logger.info(
-//                "[INVENTORY] " +
-//                        baristaName +
-//                        " took ingredients for Order #" +
-//                        order.getOrderId() +
-//                        " (" +
-//                        order.getDrinkType() +
-//                        ")"
-//        );
-//
-//        printInventory();
-//    }
 
     public synchronized void takeIngredients(String baristaName, Order order
     ) throws InterruptedException {
@@ -136,60 +105,6 @@ public class Inventory {
         );
     }
 
-//
-//    public synchronized void restockIfNeeded() {
-//
-//        boolean restocked = false;
-//
-//        if (coffeeBeans <= MIN_COFFEE) {
-//
-//            coffeeBeans = MAX_COFFEE;
-//
-//            Logger.info(
-//                    "[SUPPLIER] Restocked coffee beans to " +
-//                            coffeeBeans
-//            );
-//
-//            restocked = true;
-//        }
-//
-//        if (milk <= MIN_MILK) {
-//
-//            milk = MAX_MILK;
-//
-//            Logger.info(
-//                    "[SUPPLIER] Restocked milk to " +
-//                            milk
-//            );
-//
-//            restocked = true;
-//        }
-//
-//        if (cups <= MIN_CUPS) {
-//
-//            cups = MAX_CUPS;
-//
-//            Logger.info(
-//                    "[SUPPLIER] Restocked cups to " +
-//                            cups
-//            );
-//
-//            restocked = true;
-//        }
-//
-//        if (restocked) {
-//
-//            Logger.info(
-//                    "[INVENTORY] Current inventory -> " +
-//                            "Coffee Beans: " + coffeeBeans +
-//                            ", Milk: " + milk +
-//                            ", Cups: " + cups
-//            );
-//
-//            notifyAll();
-//        }
-//    }
-
     public synchronized void restockIfNeeded() {
 
         if (!restockRequested) {
@@ -210,5 +125,15 @@ public class Inventory {
         printInventory();
 
         notifyAll();
+    }
+
+    public synchronized void printFinalInventory() {
+
+        Logger.info(
+                "Final inventory -> " +
+                        "Coffee Beans: " + coffeeBeans +
+                        ", Milk: " + milk +
+                        ", Cups: " + cups
+        );
     }
 }

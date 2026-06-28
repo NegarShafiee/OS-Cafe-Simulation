@@ -3,6 +3,7 @@ package queue;
 import model.Order;
 import logger.Logger;
 import factory.OrderFactory;
+import statistics.Statistics;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -13,13 +14,9 @@ import java.util.concurrent.locks.ReentrantLock;
 public class OrderQueue {
 
     private static final int CAPACITY = 10;
-
     private final Queue<Order> queue = new LinkedList<>();
-
     private final Semaphore emptySlots = new Semaphore(CAPACITY);
-
     private final Semaphore fullSlots = new Semaphore(0);
-
     private final Lock queueLock = new ReentrantLock();
 
     public Order registerOrder(String producerName) throws InterruptedException {
@@ -32,15 +29,20 @@ public class OrderQueue {
             emptySlots.release();
             return null;
         }
+
         int currentSize;
+
         queueLock.lock();
 
         try {
             queue.add(order);
             currentSize = queue.size();
-        } finally {
+        }
+        finally {
             queueLock.unlock();
         }
+
+        Statistics.orderProduced();
 
         Logger.info(
                 producerName +
@@ -81,8 +83,6 @@ public class OrderQueue {
             queueLock.unlock();
         }
 
-//        Logger.info("[QUEUE] Removed Order #" + order.getOrderId());
-
         Logger.info(
                 "[QUEUE] Order #" +
                         order.getOrderId() +
@@ -97,7 +97,7 @@ public class OrderQueue {
         return order;
     }
 
-    public int size() {
+    public int getCurrentSize() {
 
         queueLock.lock();
 

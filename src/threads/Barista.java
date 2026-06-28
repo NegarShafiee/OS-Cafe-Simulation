@@ -5,7 +5,7 @@ import queue.OrderQueue;
 import logger.Logger;
 import inventory.Inventory;
 import resource.CoffeeMachine;
-import resource.CoffeeMachine;
+import statistics.Statistics;
 
 public class Barista implements  Runnable{
     private final String baristaName;
@@ -70,14 +70,16 @@ public class Barista implements  Runnable{
                                 " finished Order #" +
                                 order.getOrderId()
                 );
+
+                Statistics.orderProcessed();
             }
 
         } catch (InterruptedException e) {
 
-            Logger.error(
+            Logger.info(
                     "[BARISTA] " +
                             baristaName +
-                            " interrupted."
+                            " stopped."
             );
 
             Thread.currentThread().interrupt();

@@ -33,8 +33,12 @@ public class OrderFactory {
         OrderPriority priority =
                 OrderPriority.values()[random.nextInt(OrderPriority.values().length)];
 
-        int preparationTime =
-                random.nextInt(2) + 1;      // 1 تا 3 ثانیه
+        int preparationTime = switch (drinkType) {
+            case ESPRESSO -> 1;
+            case AMERICANO -> 2;
+            case CAPPUCCINO -> 2;
+            case LATTE -> 3;
+        };
 
         return new Order(
                 id,

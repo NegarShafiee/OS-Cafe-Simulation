@@ -1,6 +1,7 @@
 package resource;
 
 import logger.Logger;
+import statistics.Statistics;
 
 import java.util.concurrent.Semaphore;
 
@@ -12,6 +13,8 @@ public class CoffeeMachine {
             throws InterruptedException {
 
         machines.acquire();
+
+        Statistics.coffeeMachineUsed();
 
         Logger.info(
                 "[COFFEE MACHINE] " +

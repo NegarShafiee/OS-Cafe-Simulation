@@ -25,7 +25,7 @@ public class Supplier implements Runnable {
 
         } catch (InterruptedException e) {
 
-            Logger.error("[SUPPLIER] interrupted.");
+            Logger.info("[SUPPLIER] stopped.");
 
             Thread.currentThread().interrupt();
         }
