@@ -37,8 +37,7 @@ public class OrderQueue {
         try {
             queue.add(order);
             currentSize = queue.size();
-        }
-        finally {
+        } finally {
             queueLock.unlock();
         }
 
@@ -78,8 +77,7 @@ public class OrderQueue {
         try {
             order = queue.poll();
             currentSize = queue.size();
-        }
-        finally {
+        } finally {
             queueLock.unlock();
         }
 
@@ -103,8 +101,7 @@ public class OrderQueue {
 
         try {
             return queue.size();
-        }
-        finally {
+        } finally {
             queueLock.unlock();
         }
     }

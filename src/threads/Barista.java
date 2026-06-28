@@ -7,7 +7,7 @@ import inventory.Inventory;
 import resource.CoffeeMachine;
 import statistics.Statistics;
 
-public class Barista implements  Runnable{
+public class Barista implements Runnable {
     private final String baristaName;
     private final OrderQueue orderQueue;
     private final Inventory inventory;
@@ -58,8 +58,7 @@ public class Barista implements  Runnable{
 
                     Thread.sleep(order.getPreparationTime() * 1000L); //preparation
 
-                }
-                finally {
+                } finally {
 
                     coffeeMachine.release(baristaName);
                 }

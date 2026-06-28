@@ -1,7 +1,6 @@
-import model.*;
 import queue.OrderQueue;
 import logger.Logger;
-import  threads.OrderProducer;
+import threads.OrderProducer;
 import threads.Barista;
 import inventory.Inventory;
 import resource.CoffeeMachine;

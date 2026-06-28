@@ -40,8 +40,7 @@ public class OrderProducer implements Runnable {
             }
 
             Logger.info(producerName + " finished producing orders.");
-        }
-        catch (InterruptedException e) {
+        } catch (InterruptedException e) {
 
             Logger.error(
                     producerName +

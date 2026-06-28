@@ -28,8 +28,10 @@ public class Logger {
             }
 
             writer = new BufferedWriter(
-                    new FileWriter(LOG_FILE, false) // true: new logs append to old logs
-                                                          // false: start with clear log file
+                    // true: new logs append to old logs
+                    // false: start with clear log file
+                    new FileWriter(LOG_FILE, false)
+
             );
 
         } catch (IOException e) {

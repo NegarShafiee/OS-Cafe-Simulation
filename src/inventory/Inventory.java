@@ -3,7 +3,6 @@ package inventory;
 import logger.Logger;
 import model.Order;
 
-
 public class Inventory {
 
     private int coffeeBeans = 20;

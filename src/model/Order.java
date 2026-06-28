@@ -41,7 +41,7 @@ public class Order {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return "Order{" +
                 "id = " + orderId +
                 ", customer = " + customerName +
