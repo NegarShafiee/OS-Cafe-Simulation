@@ -81,7 +81,7 @@ public class OrderQueue {
             queueLock.unlock();
         }
 
-        Logger.info("[QUEUE] Removed Order #" + order.getOrderId());
+//        Logger.info("[QUEUE] Removed Order #" + order.getOrderId());
 
         Logger.info(
                 "[QUEUE] Order #" +
