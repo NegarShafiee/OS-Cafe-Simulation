@@ -121,6 +121,16 @@ At the end of execution the program reports:
 - Monitor
 - AtomicInteger
 - Locks
+- TCP Socket (IPC)
+
+---
+
+## Bonus Features
+
+- Independent Logger Process
+- Socket-based IPC communication
+- Automatic Logger Process startup
+- Persistent log storage in `logs/cafe.log`
 
 ---
 
