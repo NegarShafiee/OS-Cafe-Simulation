@@ -1,15 +1,31 @@
-import queue.OrderQueue;
-import logger.Logger;
-import threads.OrderProducer;
-import threads.Barista;
 import inventory.Inventory;
+import logger.Logger;
+import queue.OrderQueue;
 import resource.CoffeeMachine;
-import threads.Supplier;
 import statistics.Statistics;
+import threads.Barista;
+import threads.OrderProducer;
+import threads.Supplier;
 
 public class Main {
+
     public static void main(String[] args)
-            throws InterruptedException {
+            throws Exception {
+
+        ProcessBuilder builder = new ProcessBuilder(
+                "java",
+                "-cp",
+                System.getProperty("java.class.path"),
+                "loggerProcess.LoggerProcess"
+        );
+
+        builder.redirectOutput(ProcessBuilder.Redirect.DISCARD);
+        builder.redirectError(ProcessBuilder.Redirect.DISCARD);
+
+        Process loggerProcess = builder.start();
+
+        Thread.sleep(500);
+
         Logger.connect();
 
         OrderQueue orderQueue = new OrderQueue();
@@ -59,9 +75,11 @@ public class Main {
             producer.join();
         }
 
-        Logger.info("All producers finished."); // number of producer orders won't change anymore.
+        Logger.info("All producers finished.");
 
-        while (Statistics.getProcessedOrders() != Statistics.getProducedOrders()) {
+        while (Statistics.getProcessedOrders()
+                != Statistics.getProducedOrders()) {
+
             Thread.sleep(200);
         }
 
@@ -78,10 +96,15 @@ public class Main {
         supplier.join();
 
         Statistics.printReport(orderQueue.getCurrentSize());
+
         inventory.printFinalInventory();
+
         Logger.info("==================================");
 
         Logger.info("Cafe simulation completed successfully.");
+
         Logger.close();
+
+        loggerProcess.waitFor();
     }
 }

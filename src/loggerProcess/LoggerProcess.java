@@ -52,7 +52,7 @@ public class LoggerProcess {
                     new BufferedWriter(
                             new FileWriter(
                                     logFile,
-                                    true      // append
+                                    false      // true : append
                             )
                     );
 
