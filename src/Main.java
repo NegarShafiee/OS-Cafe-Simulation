@@ -10,6 +10,7 @@ import statistics.Statistics;
 public class Main {
     public static void main(String[] args)
             throws InterruptedException {
+        Logger.connect();
 
         OrderQueue orderQueue = new OrderQueue();
 
@@ -81,5 +82,6 @@ public class Main {
         Logger.info("==================================");
 
         Logger.info("Cafe simulation completed successfully.");
+        Logger.close();
     }
 }

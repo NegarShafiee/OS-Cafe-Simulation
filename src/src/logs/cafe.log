@@ -1,0 +1,527 @@
+2026-07-03 00:29:16 [INFO] Producer-2 registered Order #1 (Customer-1, AMERICANO, MEDIUM)
+2026-07-03 00:29:16 [INFO] Producer-3 registered Order #2 (Customer-2, ESPRESSO, MEDIUM)
+2026-07-03 00:29:16 [INFO] Producer-1 registered Order #3 (Customer-3, CAPPUCCINO, MEDIUM)
+2026-07-03 00:29:16 [INFO] [QUEUE] Order #1 entered queue. Queue: 3/10
+2026-07-03 00:29:16 [INFO] [QUEUE] Order #3 entered queue. Queue: 1/10
+2026-07-03 00:29:16 [INFO] [QUEUE] Order #2 entered queue. Queue: 2/10
+2026-07-03 00:29:16 [INFO] [QUEUE] Order #2 removed from queue. Current queue: 1/10
+2026-07-03 00:29:16 [INFO] [QUEUE] Order #3 removed from queue. Current queue: 2/10
+2026-07-03 00:29:16 [INFO] [QUEUE] Order #1 removed from queue. Current queue: 0/10
+2026-07-03 00:29:16 [INFO] [BARISTA] Barista-3 picked Order #1
+2026-07-03 00:29:16 [INFO] [BARISTA] Barista-2 picked Order #3
+2026-07-03 00:29:16 [INFO] [BARISTA] Barista-1 picked Order #2
+2026-07-03 00:29:16 [INFO] [INVENTORY] Barista-3 took ingredients for Order #1 (AMERICANO)
+2026-07-03 00:29:16 [INFO] [INVENTORY] Current Stock -> Coffee: 18, Milk: 15, Cups: 24
+2026-07-03 00:29:16 [INFO] [INVENTORY] Barista-1 took ingredients for Order #2 (ESPRESSO)
+2026-07-03 00:29:16 [INFO] [INVENTORY] Current Stock -> Coffee: 16, Milk: 15, Cups: 23
+2026-07-03 00:29:16 [INFO] [INVENTORY] Barista-2 took ingredients for Order #3 (CAPPUCCINO)
+2026-07-03 00:29:16 [INFO] [INVENTORY] Current Stock -> Coffee: 13, Milk: 14, Cups: 22
+2026-07-03 00:29:16 [INFO] [COFFEE MACHINE] Barista-1 is using a coffee machine. 
+2026-07-03 00:29:16 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:16 [INFO] [BARISTA] Barista-3 started preparing Order #1
+2026-07-03 00:29:16 [INFO] [BARISTA] Barista-1 started preparing Order #2
+2026-07-03 00:29:17 [INFO] Producer-2 registered Order #4 (Customer-4, ESPRESSO, HIGH)
+2026-07-03 00:29:17 [INFO] [QUEUE] Order #4 entered queue. Queue: 1/10
+2026-07-03 00:29:17 [INFO] [QUEUE] Order #4 removed from queue. Current queue: 0/10
+2026-07-03 00:29:17 [INFO] [BARISTA] Barista-4 picked Order #4
+2026-07-03 00:29:17 [INFO] [INVENTORY] Barista-4 took ingredients for Order #4 (ESPRESSO)
+2026-07-03 00:29:17 [INFO] [INVENTORY] Current Stock -> Coffee: 11, Milk: 14, Cups: 21
+2026-07-03 00:29:17 [INFO] Producer-1 registered Order #5 (Customer-5, ESPRESSO, LOW)
+2026-07-03 00:29:17 [INFO] [QUEUE] Order #5 entered queue. Queue: 1/10
+2026-07-03 00:29:17 [INFO] [COFFEE MACHINE] Barista-2 is using a coffee machine. 
+2026-07-03 00:29:17 [INFO] [BARISTA] Barista-2 started preparing Order #3
+2026-07-03 00:29:17 [INFO] [COFFEE MACHINE] Barista-1 released a coffee machine.
+2026-07-03 00:29:17 [INFO] [BARISTA] Barista-1 finished Order #2
+2026-07-03 00:29:17 [INFO] [QUEUE] Order #5 removed from queue. Current queue: 0/10
+2026-07-03 00:29:17 [INFO] [BARISTA] Barista-1 picked Order #5
+2026-07-03 00:29:17 [INFO] [INVENTORY] Barista-1 took ingredients for Order #5 (ESPRESSO)
+2026-07-03 00:29:17 [INFO] [INVENTORY] Current Stock -> Coffee: 9, Milk: 14, Cups: 20
+2026-07-03 00:29:17 [INFO] Producer-2 registered Order #6 (Customer-6, AMERICANO, LOW)
+2026-07-03 00:29:17 [INFO] [QUEUE] Order #6 entered queue. Queue: 1/10
+2026-07-03 00:29:18 [INFO] Producer-3 registered Order #7 (Customer-7, AMERICANO, LOW)
+2026-07-03 00:29:18 [INFO] [QUEUE] Order #7 entered queue. Queue: 2/10
+2026-07-03 00:29:18 [INFO] Producer-1 registered Order #8 (Customer-8, LATTE, MEDIUM)
+2026-07-03 00:29:18 [INFO] [QUEUE] Order #8 entered queue. Queue: 3/10
+2026-07-03 00:29:18 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:29:18 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:29:18 [INFO] [BARISTA] Barista-3 finished Order #1
+2026-07-03 00:29:18 [INFO] [BARISTA] Barista-4 started preparing Order #4
+2026-07-03 00:29:18 [INFO] [QUEUE] Order #6 removed from queue. Current queue: 2/10
+2026-07-03 00:29:18 [INFO] [BARISTA] Barista-3 picked Order #6
+2026-07-03 00:29:18 [INFO] [INVENTORY] Barista-3 took ingredients for Order #6 (AMERICANO)
+2026-07-03 00:29:18 [INFO] [INVENTORY] Current Stock -> Coffee: 7, Milk: 14, Cups: 19
+2026-07-03 00:29:18 [INFO] Producer-2 registered Order #9 (Customer-9, CAPPUCCINO, HIGH)
+2026-07-03 00:29:18 [INFO] [QUEUE] Order #9 entered queue. Queue: 3/10
+2026-07-03 00:29:19 [INFO] Producer-3 registered Order #10 (Customer-10, ESPRESSO, HIGH)
+2026-07-03 00:29:19 [INFO] [QUEUE] Order #10 entered queue. Queue: 4/10
+2026-07-03 00:29:19 [INFO] [COFFEE MACHINE] Barista-2 released a coffee machine.
+2026-07-03 00:29:19 [INFO] [BARISTA] Barista-2 finished Order #3
+2026-07-03 00:29:19 [INFO] [QUEUE] Order #7 removed from queue. Current queue: 3/10
+2026-07-03 00:29:19 [INFO] [BARISTA] Barista-2 picked Order #7
+2026-07-03 00:29:19 [INFO] [COFFEE MACHINE] Barista-1 is using a coffee machine. 
+2026-07-03 00:29:19 [INFO] [BARISTA] Barista-1 started preparing Order #5
+2026-07-03 00:29:19 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:19 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:29:19 [INFO] [BARISTA] Barista-4 finished Order #4
+2026-07-03 00:29:19 [INFO] [INVENTORY] Barista-2 took ingredients for Order #7 (AMERICANO)
+2026-07-03 00:29:19 [INFO] [QUEUE] Order #8 removed from queue. Current queue: 2/10
+2026-07-03 00:29:19 [INFO] [BARISTA] Barista-4 picked Order #8
+2026-07-03 00:29:19 [INFO] [BARISTA] Barista-3 started preparing Order #6
+2026-07-03 00:29:19 [INFO] [INVENTORY] Current Stock -> Coffee: 5, Milk: 14, Cups: 18
+2026-07-03 00:29:19 [INFO] [INVENTORY] Barista-4 waiting for ingredients...
+2026-07-03 00:29:19 [INFO] Producer-1 registered Order #11 (Customer-11, CAPPUCCINO, HIGH)
+2026-07-03 00:29:19 [INFO] [QUEUE] Order #11 entered queue. Queue: 3/10
+2026-07-03 00:29:19 [INFO] Producer-2 registered Order #12 (Customer-12, CAPPUCCINO, HIGH)
+2026-07-03 00:29:19 [INFO] [QUEUE] Order #12 entered queue. Queue: 4/10
+2026-07-03 00:29:20 [INFO] [SUPPLIER] Inventory restocked.
+2026-07-03 00:29:20 [INFO] [INVENTORY] Current Stock -> Coffee: 50, Milk: 30, Cups: 40
+2026-07-03 00:29:20 [INFO] [INVENTORY] Barista-4 took ingredients for Order #8 (LATTE)
+2026-07-03 00:29:20 [INFO] [INVENTORY] Current Stock -> Coffee: 46, Milk: 28, Cups: 39
+2026-07-03 00:29:20 [INFO] Producer-2 registered Order #13 (Customer-13, CAPPUCCINO, MEDIUM)
+2026-07-03 00:29:20 [INFO] [QUEUE] Order #13 entered queue. Queue: 5/10
+2026-07-03 00:29:20 [INFO] [COFFEE MACHINE] Barista-1 released a coffee machine.
+2026-07-03 00:29:20 [INFO] [COFFEE MACHINE] Barista-2 is using a coffee machine. 
+2026-07-03 00:29:20 [INFO] [BARISTA] Barista-2 started preparing Order #7
+2026-07-03 00:29:20 [INFO] [BARISTA] Barista-1 finished Order #5
+2026-07-03 00:29:20 [INFO] [QUEUE] Order #9 removed from queue. Current queue: 4/10
+2026-07-03 00:29:20 [INFO] [BARISTA] Barista-1 picked Order #9
+2026-07-03 00:29:20 [INFO] [INVENTORY] Barista-1 took ingredients for Order #9 (CAPPUCCINO)
+2026-07-03 00:29:20 [INFO] [INVENTORY] Current Stock -> Coffee: 43, Milk: 27, Cups: 38
+2026-07-03 00:29:20 [INFO] Producer-3 registered Order #14 (Customer-14, AMERICANO, LOW)
+2026-07-03 00:29:20 [INFO] [QUEUE] Order #14 entered queue. Queue: 5/10
+2026-07-03 00:29:20 [INFO] Producer-1 registered Order #15 (Customer-15, CAPPUCCINO, MEDIUM)
+2026-07-03 00:29:20 [INFO] [QUEUE] Order #15 entered queue. Queue: 6/10
+2026-07-03 00:29:21 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:29:21 [INFO] [BARISTA] Barista-3 finished Order #6
+2026-07-03 00:29:21 [INFO] [QUEUE] Order #10 removed from queue. Current queue: 5/10
+2026-07-03 00:29:21 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:29:21 [INFO] [BARISTA] Barista-3 picked Order #10
+2026-07-03 00:29:21 [INFO] [INVENTORY] Barista-3 took ingredients for Order #10 (ESPRESSO)
+2026-07-03 00:29:21 [INFO] [INVENTORY] Current Stock -> Coffee: 41, Milk: 27, Cups: 37
+2026-07-03 00:29:21 [INFO] [BARISTA] Barista-4 started preparing Order #8
+2026-07-03 00:29:21 [INFO] Producer-3 registered Order #16 (Customer-16, LATTE, LOW)
+2026-07-03 00:29:21 [INFO] [QUEUE] Order #16 entered queue. Queue: 6/10
+2026-07-03 00:29:21 [INFO] Producer-2 registered Order #17 (Customer-17, LATTE, MEDIUM)
+2026-07-03 00:29:21 [INFO] [QUEUE] Order #17 entered queue. Queue: 7/10
+2026-07-03 00:29:21 [INFO] Producer-1 registered Order #18 (Customer-18, ESPRESSO, MEDIUM)
+2026-07-03 00:29:21 [INFO] [QUEUE] Order #18 entered queue. Queue: 8/10
+2026-07-03 00:29:22 [INFO] Producer-2 registered Order #19 (Customer-19, AMERICANO, MEDIUM)
+2026-07-03 00:29:22 [INFO] [QUEUE] Order #19 entered queue. Queue: 9/10
+2026-07-03 00:29:22 [INFO] [COFFEE MACHINE] Barista-2 released a coffee machine.
+2026-07-03 00:29:22 [INFO] [BARISTA] Barista-2 finished Order #7
+2026-07-03 00:29:22 [INFO] [QUEUE] Order #11 removed from queue. Current queue: 8/10
+2026-07-03 00:29:22 [INFO] [BARISTA] Barista-2 picked Order #11
+2026-07-03 00:29:22 [INFO] [COFFEE MACHINE] Barista-1 is using a coffee machine. 
+2026-07-03 00:29:22 [INFO] [INVENTORY] Barista-2 took ingredients for Order #11 (CAPPUCCINO)
+2026-07-03 00:29:22 [INFO] [INVENTORY] Current Stock -> Coffee: 38, Milk: 26, Cups: 36
+2026-07-03 00:29:22 [INFO] [BARISTA] Barista-1 started preparing Order #9
+2026-07-03 00:29:22 [INFO] Producer-3 registered Order #20 (Customer-20, ESPRESSO, MEDIUM)
+2026-07-03 00:29:22 [INFO] [QUEUE] Order #20 entered queue. Queue: 9/10
+2026-07-03 00:29:23 [INFO] Producer-1 registered Order #21 (Customer-21, ESPRESSO, LOW)
+2026-07-03 00:29:23 [INFO] [QUEUE] Order #21 entered queue. Queue: 10/10
+2026-07-03 00:29:24 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:29:24 [INFO] [BARISTA] Barista-4 finished Order #8
+2026-07-03 00:29:24 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:24 [INFO] [BARISTA] Barista-3 started preparing Order #10
+2026-07-03 00:29:24 [INFO] [QUEUE] Order #12 removed from queue. Current queue: 9/10
+2026-07-03 00:29:24 [INFO] [BARISTA] Barista-4 picked Order #12
+2026-07-03 00:29:24 [INFO] [INVENTORY] Barista-4 took ingredients for Order #12 (CAPPUCCINO)
+2026-07-03 00:29:24 [INFO] Producer-2 registered Order #22 (Customer-22, ESPRESSO, LOW)
+2026-07-03 00:29:24 [INFO] [INVENTORY] Current Stock -> Coffee: 35, Milk: 25, Cups: 35
+2026-07-03 00:29:24 [INFO] [COFFEE MACHINE] Barista-2 is using a coffee machine. 
+2026-07-03 00:29:24 [INFO] [BARISTA] Barista-2 started preparing Order #11
+2026-07-03 00:29:24 [INFO] [COFFEE MACHINE] Barista-1 released a coffee machine.
+2026-07-03 00:29:24 [INFO] [BARISTA] Barista-1 finished Order #9
+2026-07-03 00:29:24 [INFO] [QUEUE] Order #13 removed from queue. Current queue: 9/10
+2026-07-03 00:29:24 [INFO] [QUEUE] Order #22 entered queue. Queue: 10/10
+2026-07-03 00:29:24 [INFO] Producer-1 registered Order #23 (Customer-23, AMERICANO, MEDIUM)
+2026-07-03 00:29:24 [INFO] [QUEUE] Order #23 entered queue. Queue: 10/10
+2026-07-03 00:29:24 [INFO] [BARISTA] Barista-1 picked Order #13
+2026-07-03 00:29:24 [INFO] [INVENTORY] Barista-1 took ingredients for Order #13 (CAPPUCCINO)
+2026-07-03 00:29:24 [INFO] [INVENTORY] Current Stock -> Coffee: 32, Milk: 24, Cups: 34
+2026-07-03 00:29:25 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:29:25 [INFO] [BARISTA] Barista-3 finished Order #10
+2026-07-03 00:29:25 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:29:25 [INFO] [QUEUE] Order #14 removed from queue. Current queue: 9/10
+2026-07-03 00:29:25 [INFO] [BARISTA] Barista-3 picked Order #14
+2026-07-03 00:29:25 [INFO] [INVENTORY] Barista-3 took ingredients for Order #14 (AMERICANO)
+2026-07-03 00:29:25 [INFO] [BARISTA] Barista-4 started preparing Order #12
+2026-07-03 00:29:25 [INFO] [INVENTORY] Current Stock -> Coffee: 30, Milk: 24, Cups: 33
+2026-07-03 00:29:25 [INFO] Producer-3 registered Order #24 (Customer-24, ESPRESSO, LOW)
+2026-07-03 00:29:25 [INFO] [QUEUE] Order #24 entered queue. Queue: 10/10
+2026-07-03 00:29:26 [INFO] [COFFEE MACHINE] Barista-2 released a coffee machine.
+2026-07-03 00:29:26 [INFO] [BARISTA] Barista-2 finished Order #11
+2026-07-03 00:29:26 [INFO] [QUEUE] Order #15 removed from queue. Current queue: 9/10
+2026-07-03 00:29:26 [INFO] [COFFEE MACHINE] Barista-1 is using a coffee machine. 
+2026-07-03 00:29:26 [INFO] Producer-2 registered Order #25 (Customer-25, ESPRESSO, HIGH)
+2026-07-03 00:29:26 [INFO] [BARISTA] Barista-2 picked Order #15
+2026-07-03 00:29:26 [INFO] [INVENTORY] Barista-2 took ingredients for Order #15 (CAPPUCCINO)
+2026-07-03 00:29:26 [INFO] [INVENTORY] Current Stock -> Coffee: 27, Milk: 23, Cups: 32
+2026-07-03 00:29:26 [INFO] [QUEUE] Order #25 entered queue. Queue: 10/10
+2026-07-03 00:29:26 [INFO] [BARISTA] Barista-1 started preparing Order #13
+2026-07-03 00:29:27 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:29:27 [INFO] [BARISTA] Barista-4 finished Order #12
+2026-07-03 00:29:27 [INFO] [QUEUE] Order #16 removed from queue. Current queue: 9/10
+2026-07-03 00:29:27 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:27 [INFO] [BARISTA] Barista-4 picked Order #16
+2026-07-03 00:29:27 [INFO] Producer-1 registered Order #26 (Customer-26, CAPPUCCINO, HIGH)
+2026-07-03 00:29:27 [INFO] [QUEUE] Order #26 entered queue. Queue: 10/10
+2026-07-03 00:29:27 [INFO] [INVENTORY] Barista-4 took ingredients for Order #16 (LATTE)
+2026-07-03 00:29:27 [INFO] [BARISTA] Barista-3 started preparing Order #14
+2026-07-03 00:29:27 [INFO] [INVENTORY] Current Stock -> Coffee: 23, Milk: 21, Cups: 31
+2026-07-03 00:29:28 [INFO] [COFFEE MACHINE] Barista-1 released a coffee machine.
+2026-07-03 00:29:28 [INFO] [BARISTA] Barista-1 finished Order #13
+2026-07-03 00:29:28 [INFO] [COFFEE MACHINE] Barista-2 is using a coffee machine. 
+2026-07-03 00:29:28 [INFO] [BARISTA] Barista-2 started preparing Order #15
+2026-07-03 00:29:28 [INFO] [QUEUE] Order #17 removed from queue. Current queue: 9/10
+2026-07-03 00:29:28 [INFO] [BARISTA] Barista-1 picked Order #17
+2026-07-03 00:29:28 [INFO] [INVENTORY] Barista-1 took ingredients for Order #17 (LATTE)
+2026-07-03 00:29:28 [INFO] Producer-3 registered Order #27 (Customer-27, ESPRESSO, LOW)
+2026-07-03 00:29:28 [INFO] [INVENTORY] Current Stock -> Coffee: 19, Milk: 19, Cups: 30
+2026-07-03 00:29:28 [INFO] [QUEUE] Order #27 entered queue. Queue: 10/10
+2026-07-03 00:29:29 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:29:29 [INFO] [BARISTA] Barista-3 finished Order #14
+2026-07-03 00:29:29 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:29:29 [INFO] [BARISTA] Barista-4 started preparing Order #16
+2026-07-03 00:29:29 [INFO] [QUEUE] Order #18 removed from queue. Current queue: 9/10
+2026-07-03 00:29:29 [INFO] [BARISTA] Barista-3 picked Order #18
+2026-07-03 00:29:29 [INFO] [INVENTORY] Barista-3 took ingredients for Order #18 (ESPRESSO)
+2026-07-03 00:29:29 [INFO] [INVENTORY] Current Stock -> Coffee: 17, Milk: 19, Cups: 29
+2026-07-03 00:29:29 [INFO] Producer-2 registered Order #28 (Customer-28, LATTE, MEDIUM)
+2026-07-03 00:29:29 [INFO] [QUEUE] Order #28 entered queue. Queue: 10/10
+2026-07-03 00:29:30 [INFO] [COFFEE MACHINE] Barista-2 released a coffee machine.
+2026-07-03 00:29:30 [INFO] [BARISTA] Barista-2 finished Order #15
+2026-07-03 00:29:30 [INFO] [QUEUE] Order #19 removed from queue. Current queue: 9/10
+2026-07-03 00:29:30 [INFO] [COFFEE MACHINE] Barista-1 is using a coffee machine. 
+2026-07-03 00:29:30 [INFO] [BARISTA] Barista-1 started preparing Order #17
+2026-07-03 00:29:30 [INFO] Producer-1 registered Order #29 (Customer-29, AMERICANO, HIGH)
+2026-07-03 00:29:30 [INFO] [QUEUE] Order #29 entered queue. Queue: 10/10
+2026-07-03 00:29:30 [INFO] [BARISTA] Barista-2 picked Order #19
+2026-07-03 00:29:30 [INFO] [INVENTORY] Barista-2 took ingredients for Order #19 (AMERICANO)
+2026-07-03 00:29:30 [INFO] [INVENTORY] Current Stock -> Coffee: 15, Milk: 19, Cups: 28
+2026-07-03 00:29:32 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:29:32 [INFO] [BARISTA] Barista-4 finished Order #16
+2026-07-03 00:29:32 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:32 [INFO] [BARISTA] Barista-3 started preparing Order #18
+2026-07-03 00:29:32 [INFO] [QUEUE] Order #20 removed from queue. Current queue: 9/10
+2026-07-03 00:29:32 [INFO] [BARISTA] Barista-4 picked Order #20
+2026-07-03 00:29:32 [INFO] [INVENTORY] Barista-4 took ingredients for Order #20 (ESPRESSO)
+2026-07-03 00:29:32 [INFO] Producer-3 registered Order #30 (Customer-30, ESPRESSO, MEDIUM)
+2026-07-03 00:29:32 [INFO] [INVENTORY] Current Stock -> Coffee: 13, Milk: 19, Cups: 27
+2026-07-03 00:29:32 [INFO] [QUEUE] Order #30 entered queue. Queue: 10/10
+2026-07-03 00:29:33 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:29:33 [INFO] [BARISTA] Barista-3 finished Order #18
+2026-07-03 00:29:33 [INFO] [COFFEE MACHINE] Barista-2 is using a coffee machine. 
+2026-07-03 00:29:33 [INFO] [BARISTA] Barista-2 started preparing Order #19
+2026-07-03 00:29:33 [INFO] [QUEUE] Order #21 removed from queue. Current queue: 9/10
+2026-07-03 00:29:33 [INFO] [BARISTA] Barista-3 picked Order #21
+2026-07-03 00:29:33 [INFO] [INVENTORY] Barista-3 took ingredients for Order #21 (ESPRESSO)
+2026-07-03 00:29:33 [INFO] Producer-2 registered Order #31 (Customer-31, LATTE, MEDIUM)
+2026-07-03 00:29:33 [INFO] [QUEUE] Order #31 entered queue. Queue: 10/10
+2026-07-03 00:29:33 [INFO] [INVENTORY] Current Stock -> Coffee: 11, Milk: 19, Cups: 26
+2026-07-03 00:29:33 [INFO] [COFFEE MACHINE] Barista-1 released a coffee machine.
+2026-07-03 00:29:33 [INFO] [BARISTA] Barista-1 finished Order #17
+2026-07-03 00:29:33 [INFO] [QUEUE] Order #22 removed from queue. Current queue: 9/10
+2026-07-03 00:29:33 [INFO] [BARISTA] Barista-1 picked Order #22
+2026-07-03 00:29:33 [INFO] [INVENTORY] Barista-1 took ingredients for Order #22 (ESPRESSO)
+2026-07-03 00:29:33 [INFO] [INVENTORY] Current Stock -> Coffee: 9, Milk: 19, Cups: 25
+2026-07-03 00:29:33 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:29:33 [INFO] [BARISTA] Barista-4 started preparing Order #20
+2026-07-03 00:29:33 [INFO] Producer-1 registered Order #32 (Customer-32, LATTE, MEDIUM)
+2026-07-03 00:29:33 [INFO] [QUEUE] Order #32 entered queue. Queue: 10/10
+2026-07-03 00:29:34 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:29:34 [INFO] [BARISTA] Barista-4 finished Order #20
+2026-07-03 00:29:34 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:34 [INFO] [QUEUE] Order #23 removed from queue. Current queue: 9/10
+2026-07-03 00:29:34 [INFO] [BARISTA] Barista-4 picked Order #23
+2026-07-03 00:29:34 [INFO] Producer-3 registered Order #33 (Customer-33, AMERICANO, LOW)
+2026-07-03 00:29:34 [INFO] [BARISTA] Barista-3 started preparing Order #21
+2026-07-03 00:29:34 [INFO] [QUEUE] Order #33 entered queue. Queue: 10/10
+2026-07-03 00:29:34 [INFO] [INVENTORY] Barista-4 took ingredients for Order #23 (AMERICANO)
+2026-07-03 00:29:34 [INFO] [INVENTORY] Current Stock -> Coffee: 7, Milk: 19, Cups: 24
+2026-07-03 00:29:35 [INFO] [COFFEE MACHINE] Barista-2 released a coffee machine.
+2026-07-03 00:29:35 [INFO] [BARISTA] Barista-2 finished Order #19
+2026-07-03 00:29:35 [INFO] [QUEUE] Order #24 removed from queue. Current queue: 9/10
+2026-07-03 00:29:35 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:29:35 [INFO] [COFFEE MACHINE] Barista-1 is using a coffee machine. 
+2026-07-03 00:29:35 [INFO] [BARISTA] Barista-1 started preparing Order #22
+2026-07-03 00:29:35 [INFO] [BARISTA] Barista-4 started preparing Order #23
+2026-07-03 00:29:35 [INFO] Producer-2 registered Order #34 (Customer-34, AMERICANO, HIGH)
+2026-07-03 00:29:35 [INFO] [QUEUE] Order #34 entered queue. Queue: 10/10
+2026-07-03 00:29:35 [INFO] [BARISTA] Barista-2 picked Order #24
+2026-07-03 00:29:35 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:29:35 [INFO] [BARISTA] Barista-3 finished Order #21
+2026-07-03 00:29:35 [INFO] [QUEUE] Order #25 removed from queue. Current queue: 9/10
+2026-07-03 00:29:35 [INFO] [BARISTA] Barista-3 picked Order #25
+2026-07-03 00:29:35 [INFO] [INVENTORY] Barista-2 took ingredients for Order #24 (ESPRESSO)
+2026-07-03 00:29:35 [INFO] [INVENTORY] Current Stock -> Coffee: 5, Milk: 19, Cups: 23
+2026-07-03 00:29:35 [INFO] Producer-1 registered Order #35 (Customer-35, LATTE, HIGH)
+2026-07-03 00:29:35 [INFO] [INVENTORY] Barista-3 waiting for ingredients...
+2026-07-03 00:29:35 [INFO] [QUEUE] Order #35 entered queue. Queue: 10/10
+2026-07-03 00:29:36 [INFO] [SUPPLIER] Inventory restocked.
+2026-07-03 00:29:36 [INFO] [INVENTORY] Current Stock -> Coffee: 50, Milk: 30, Cups: 40
+2026-07-03 00:29:36 [INFO] [INVENTORY] Barista-3 took ingredients for Order #25 (ESPRESSO)
+2026-07-03 00:29:36 [INFO] [INVENTORY] Current Stock -> Coffee: 48, Milk: 30, Cups: 39
+2026-07-03 00:29:36 [INFO] [COFFEE MACHINE] Barista-1 released a coffee machine.
+2026-07-03 00:29:36 [INFO] [BARISTA] Barista-1 finished Order #22
+2026-07-03 00:29:36 [INFO] [COFFEE MACHINE] Barista-2 is using a coffee machine. 
+2026-07-03 00:29:36 [INFO] [BARISTA] Barista-2 started preparing Order #24
+2026-07-03 00:29:36 [INFO] [QUEUE] Order #26 removed from queue. Current queue: 9/10
+2026-07-03 00:29:36 [INFO] [BARISTA] Barista-1 picked Order #26
+2026-07-03 00:29:36 [INFO] [INVENTORY] Barista-1 took ingredients for Order #26 (CAPPUCCINO)
+2026-07-03 00:29:36 [INFO] Producer-3 registered Order #36 (Customer-36, CAPPUCCINO, HIGH)
+2026-07-03 00:29:36 [INFO] [INVENTORY] Current Stock -> Coffee: 45, Milk: 29, Cups: 38
+2026-07-03 00:29:36 [INFO] [QUEUE] Order #36 entered queue. Queue: 10/10
+2026-07-03 00:29:37 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:29:37 [INFO] [BARISTA] Barista-4 finished Order #23
+2026-07-03 00:29:37 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:37 [INFO] [BARISTA] Barista-3 started preparing Order #25
+2026-07-03 00:29:37 [INFO] [QUEUE] Order #27 removed from queue. Current queue: 9/10
+2026-07-03 00:29:37 [INFO] [BARISTA] Barista-4 picked Order #27
+2026-07-03 00:29:37 [INFO] [INVENTORY] Barista-4 took ingredients for Order #27 (ESPRESSO)
+2026-07-03 00:29:37 [INFO] [INVENTORY] Current Stock -> Coffee: 43, Milk: 29, Cups: 37
+2026-07-03 00:29:37 [INFO] Producer-2 registered Order #37 (Customer-37, LATTE, HIGH)
+2026-07-03 00:29:37 [INFO] [COFFEE MACHINE] Barista-1 is using a coffee machine. 
+2026-07-03 00:29:37 [INFO] [BARISTA] Barista-1 started preparing Order #26
+2026-07-03 00:29:37 [INFO] [COFFEE MACHINE] Barista-2 released a coffee machine.
+2026-07-03 00:29:37 [INFO] [QUEUE] Order #37 entered queue. Queue: 10/10
+2026-07-03 00:29:37 [INFO] [BARISTA] Barista-2 finished Order #24
+2026-07-03 00:29:37 [INFO] [QUEUE] Order #28 removed from queue. Current queue: 9/10
+2026-07-03 00:29:37 [INFO] [BARISTA] Barista-2 picked Order #28
+2026-07-03 00:29:37 [INFO] [INVENTORY] Barista-2 took ingredients for Order #28 (LATTE)
+2026-07-03 00:29:37 [INFO] [INVENTORY] Current Stock -> Coffee: 39, Milk: 27, Cups: 36
+2026-07-03 00:29:37 [INFO] Producer-1 registered Order #38 (Customer-38, CAPPUCCINO, MEDIUM)
+2026-07-03 00:29:37 [INFO] [QUEUE] Order #38 entered queue. Queue: 10/10
+2026-07-03 00:29:38 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:29:38 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:29:38 [INFO] [BARISTA] Barista-4 started preparing Order #27
+2026-07-03 00:29:38 [INFO] [BARISTA] Barista-3 finished Order #25
+2026-07-03 00:29:38 [INFO] [QUEUE] Order #29 removed from queue. Current queue: 9/10
+2026-07-03 00:29:38 [INFO] [BARISTA] Barista-3 picked Order #29
+2026-07-03 00:29:38 [INFO] [INVENTORY] Barista-3 took ingredients for Order #29 (AMERICANO)
+2026-07-03 00:29:38 [INFO] [INVENTORY] Current Stock -> Coffee: 37, Milk: 27, Cups: 35
+2026-07-03 00:29:38 [INFO] Producer-3 registered Order #39 (Customer-39, LATTE, LOW)
+2026-07-03 00:29:38 [INFO] [QUEUE] Order #39 entered queue. Queue: 10/10
+2026-07-03 00:29:39 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:29:39 [INFO] [BARISTA] Barista-4 finished Order #27
+2026-07-03 00:29:39 [INFO] [QUEUE] Order #30 removed from queue. Current queue: 9/10
+2026-07-03 00:29:39 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:39 [INFO] [COFFEE MACHINE] Barista-2 is using a coffee machine. 
+2026-07-03 00:29:39 [INFO] [BARISTA] Barista-2 started preparing Order #28
+2026-07-03 00:29:39 [INFO] [COFFEE MACHINE] Barista-1 released a coffee machine.
+2026-07-03 00:29:39 [INFO] [BARISTA] Barista-3 started preparing Order #29
+2026-07-03 00:29:39 [INFO] Producer-1 registered Order #40 (Customer-40, AMERICANO, MEDIUM)
+2026-07-03 00:29:39 [INFO] [QUEUE] Order #40 entered queue. Queue: 10/10
+2026-07-03 00:29:39 [INFO] [BARISTA] Barista-4 picked Order #30
+2026-07-03 00:29:39 [INFO] [INVENTORY] Barista-4 took ingredients for Order #30 (ESPRESSO)
+2026-07-03 00:29:39 [INFO] [INVENTORY] Current Stock -> Coffee: 35, Milk: 27, Cups: 34
+2026-07-03 00:29:39 [INFO] [BARISTA] Barista-1 finished Order #26
+2026-07-03 00:29:39 [INFO] [QUEUE] Order #31 removed from queue. Current queue: 9/10
+2026-07-03 00:29:39 [INFO] [BARISTA] Barista-1 picked Order #31
+2026-07-03 00:29:39 [INFO] [INVENTORY] Barista-1 took ingredients for Order #31 (LATTE)
+2026-07-03 00:29:39 [INFO] [INVENTORY] Current Stock -> Coffee: 31, Milk: 25, Cups: 33
+2026-07-03 00:29:39 [INFO] Producer-2 registered Order #41 (Customer-41, CAPPUCCINO, LOW)
+2026-07-03 00:29:39 [INFO] [QUEUE] Order #41 entered queue. Queue: 10/10
+2026-07-03 00:29:41 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:29:41 [INFO] [BARISTA] Barista-3 finished Order #29
+2026-07-03 00:29:41 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:29:41 [INFO] [BARISTA] Barista-4 started preparing Order #30
+2026-07-03 00:29:41 [INFO] [QUEUE] Order #32 removed from queue. Current queue: 9/10
+2026-07-03 00:29:41 [INFO] [BARISTA] Barista-3 picked Order #32
+2026-07-03 00:29:41 [INFO] Producer-3 registered Order #42 (Customer-42, LATTE, MEDIUM)
+2026-07-03 00:29:41 [INFO] [QUEUE] Order #42 entered queue. Queue: 10/10
+2026-07-03 00:29:41 [INFO] [INVENTORY] Barista-3 took ingredients for Order #32 (LATTE)
+2026-07-03 00:29:41 [INFO] [INVENTORY] Current Stock -> Coffee: 27, Milk: 23, Cups: 32
+2026-07-03 00:29:42 [INFO] [COFFEE MACHINE] Barista-2 released a coffee machine.
+2026-07-03 00:29:42 [INFO] [COFFEE MACHINE] Barista-1 is using a coffee machine. 
+2026-07-03 00:29:42 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:29:42 [INFO] [BARISTA] Barista-4 finished Order #30
+2026-07-03 00:29:42 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:42 [INFO] [QUEUE] Order #33 removed from queue. Current queue: 9/10
+2026-07-03 00:29:42 [INFO] [BARISTA] Barista-4 picked Order #33
+2026-07-03 00:29:42 [INFO] [INVENTORY] Barista-4 took ingredients for Order #33 (AMERICANO)
+2026-07-03 00:29:42 [INFO] [INVENTORY] Current Stock -> Coffee: 25, Milk: 23, Cups: 31
+2026-07-03 00:29:42 [INFO] [BARISTA] Barista-1 started preparing Order #31
+2026-07-03 00:29:42 [INFO] [BARISTA] Barista-2 finished Order #28
+2026-07-03 00:29:42 [INFO] Producer-1 registered Order #43 (Customer-43, ESPRESSO, MEDIUM)
+2026-07-03 00:29:42 [INFO] [QUEUE] Order #43 entered queue. Queue: 10/10
+2026-07-03 00:29:42 [INFO] [BARISTA] Barista-3 started preparing Order #32
+2026-07-03 00:29:42 [INFO] [QUEUE] Order #34 removed from queue. Current queue: 9/10
+2026-07-03 00:29:42 [INFO] [BARISTA] Barista-2 picked Order #34
+2026-07-03 00:29:42 [INFO] Producer-2 registered Order #44 (Customer-44, ESPRESSO, MEDIUM)
+2026-07-03 00:29:42 [INFO] [QUEUE] Order #44 entered queue. Queue: 10/10
+2026-07-03 00:29:42 [INFO] [INVENTORY] Barista-2 took ingredients for Order #34 (AMERICANO)
+2026-07-03 00:29:42 [INFO] [INVENTORY] Current Stock -> Coffee: 23, Milk: 23, Cups: 30
+2026-07-03 00:29:45 [INFO] [COFFEE MACHINE] Barista-1 released a coffee machine.
+2026-07-03 00:29:45 [INFO] [BARISTA] Barista-1 finished Order #31
+2026-07-03 00:29:45 [INFO] [QUEUE] Order #35 removed from queue. Current queue: 9/10
+2026-07-03 00:29:45 [INFO] [COFFEE MACHINE] Barista-2 is using a coffee machine. 
+2026-07-03 00:29:45 [INFO] [BARISTA] Barista-2 started preparing Order #34
+2026-07-03 00:29:45 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:29:45 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:29:45 [INFO] [BARISTA] Barista-4 started preparing Order #33
+2026-07-03 00:29:45 [INFO] [BARISTA] Barista-3 finished Order #32
+2026-07-03 00:29:45 [INFO] Producer-3 registered Order #45 (Customer-45, ESPRESSO, MEDIUM)
+2026-07-03 00:29:45 [INFO] [QUEUE] Order #45 entered queue. Queue: 10/10
+2026-07-03 00:29:45 [INFO] [BARISTA] Barista-1 picked Order #35
+2026-07-03 00:29:45 [INFO] [INVENTORY] Barista-1 took ingredients for Order #35 (LATTE)
+2026-07-03 00:29:45 [INFO] [INVENTORY] Current Stock -> Coffee: 19, Milk: 21, Cups: 29
+2026-07-03 00:29:45 [INFO] [QUEUE] Order #36 removed from queue. Current queue: 9/10
+2026-07-03 00:29:45 [INFO] [BARISTA] Barista-3 picked Order #36
+2026-07-03 00:29:45 [INFO] [INVENTORY] Barista-3 took ingredients for Order #36 (CAPPUCCINO)
+2026-07-03 00:29:45 [INFO] [INVENTORY] Current Stock -> Coffee: 16, Milk: 20, Cups: 28
+2026-07-03 00:29:45 [INFO] Producer-2 registered Order #46 (Customer-46, LATTE, HIGH)
+2026-07-03 00:29:45 [INFO] [QUEUE] Order #46 entered queue. Queue: 10/10
+2026-07-03 00:29:47 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:29:47 [INFO] [BARISTA] Barista-4 finished Order #33
+2026-07-03 00:29:47 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:47 [INFO] [BARISTA] Barista-3 started preparing Order #36
+2026-07-03 00:29:47 [INFO] [COFFEE MACHINE] Barista-1 is using a coffee machine. 
+2026-07-03 00:29:47 [INFO] [COFFEE MACHINE] Barista-2 released a coffee machine.
+2026-07-03 00:29:47 [INFO] [BARISTA] Barista-2 finished Order #34
+2026-07-03 00:29:47 [INFO] [QUEUE] Order #38 removed from queue. Current queue: 8/10
+2026-07-03 00:29:47 [INFO] [BARISTA] Barista-1 started preparing Order #35
+2026-07-03 00:29:47 [INFO] [QUEUE] Order #37 removed from queue. Current queue: 9/10
+2026-07-03 00:29:47 [INFO] Producer-1 registered Order #47 (Customer-47, AMERICANO, HIGH)
+2026-07-03 00:29:47 [INFO] [BARISTA] Barista-2 picked Order #38
+2026-07-03 00:29:47 [INFO] [QUEUE] Order #47 entered queue. Queue: 9/10
+2026-07-03 00:29:47 [INFO] Producer-2 registered Order #48 (Customer-48, ESPRESSO, LOW)
+2026-07-03 00:29:47 [INFO] [QUEUE] Order #48 entered queue. Queue: 10/10
+2026-07-03 00:29:47 [INFO] [BARISTA] Barista-4 picked Order #37
+2026-07-03 00:29:47 [INFO] [INVENTORY] Barista-2 took ingredients for Order #38 (CAPPUCCINO)
+2026-07-03 00:29:47 [INFO] [INVENTORY] Current Stock -> Coffee: 13, Milk: 19, Cups: 27
+2026-07-03 00:29:47 [INFO] [INVENTORY] Barista-4 took ingredients for Order #37 (LATTE)
+2026-07-03 00:29:47 [INFO] [INVENTORY] Current Stock -> Coffee: 9, Milk: 17, Cups: 26
+2026-07-03 00:29:49 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:29:49 [INFO] [BARISTA] Barista-3 finished Order #36
+2026-07-03 00:29:49 [INFO] [QUEUE] Order #39 removed from queue. Current queue: 9/10
+2026-07-03 00:29:49 [INFO] [COFFEE MACHINE] Barista-2 is using a coffee machine. 
+2026-07-03 00:29:49 [INFO] [BARISTA] Barista-2 started preparing Order #38
+2026-07-03 00:29:49 [INFO] Producer-3 registered Order #49 (Customer-49, LATTE, LOW)
+2026-07-03 00:29:49 [INFO] [QUEUE] Order #49 entered queue. Queue: 10/10
+2026-07-03 00:29:49 [INFO] [BARISTA] Barista-3 picked Order #39
+2026-07-03 00:29:49 [INFO] [INVENTORY] Barista-3 took ingredients for Order #39 (LATTE)
+2026-07-03 00:29:49 [INFO] [INVENTORY] Current Stock -> Coffee: 5, Milk: 15, Cups: 25
+2026-07-03 00:29:50 [INFO] [COFFEE MACHINE] Barista-1 released a coffee machine.
+2026-07-03 00:29:50 [INFO] [BARISTA] Barista-1 finished Order #35
+2026-07-03 00:29:50 [INFO] [QUEUE] Order #40 removed from queue. Current queue: 9/10
+2026-07-03 00:29:50 [INFO] [BARISTA] Barista-1 picked Order #40
+2026-07-03 00:29:50 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:29:50 [INFO] Producer-1 registered Order #50 (Customer-50, CAPPUCCINO, MEDIUM)
+2026-07-03 00:29:50 [INFO] [QUEUE] Order #50 entered queue. Queue: 10/10
+2026-07-03 00:29:50 [INFO] [INVENTORY] Barista-1 waiting for ingredients...
+2026-07-03 00:29:50 [INFO] [BARISTA] Barista-4 started preparing Order #37
+2026-07-03 00:29:51 [INFO] [SUPPLIER] Inventory restocked.
+2026-07-03 00:29:51 [INFO] [INVENTORY] Current Stock -> Coffee: 50, Milk: 30, Cups: 40
+2026-07-03 00:29:51 [INFO] [INVENTORY] Barista-1 took ingredients for Order #40 (AMERICANO)
+2026-07-03 00:29:51 [INFO] [INVENTORY] Current Stock -> Coffee: 48, Milk: 30, Cups: 39
+2026-07-03 00:29:51 [INFO] [COFFEE MACHINE] Barista-2 released a coffee machine.
+2026-07-03 00:29:51 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:51 [INFO] [BARISTA] Barista-2 finished Order #38
+2026-07-03 00:29:51 [INFO] [QUEUE] Order #41 removed from queue. Current queue: 9/10
+2026-07-03 00:29:51 [INFO] [BARISTA] Barista-3 started preparing Order #39
+2026-07-03 00:29:51 [INFO] [BARISTA] Barista-2 picked Order #41
+2026-07-03 00:29:51 [INFO] [INVENTORY] Barista-2 took ingredients for Order #41 (CAPPUCCINO)
+2026-07-03 00:29:51 [INFO] [INVENTORY] Current Stock -> Coffee: 45, Milk: 29, Cups: 38
+2026-07-03 00:29:51 [INFO] Producer-2 finished producing orders.
+2026-07-03 00:29:51 [INFO] Producer-3 finished producing orders.
+2026-07-03 00:29:51 [INFO] Producer-1 finished producing orders.
+2026-07-03 00:29:51 [INFO] All producers finished.
+2026-07-03 00:29:53 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:29:53 [INFO] [BARISTA] Barista-4 finished Order #37
+2026-07-03 00:29:53 [INFO] [COFFEE MACHINE] Barista-1 is using a coffee machine. 
+2026-07-03 00:29:53 [INFO] [BARISTA] Barista-1 started preparing Order #40
+2026-07-03 00:29:53 [INFO] [QUEUE] Order #42 removed from queue. Current queue: 8/10
+2026-07-03 00:29:53 [INFO] [BARISTA] Barista-4 picked Order #42
+2026-07-03 00:29:53 [INFO] [INVENTORY] Barista-4 took ingredients for Order #42 (LATTE)
+2026-07-03 00:29:53 [INFO] [INVENTORY] Current Stock -> Coffee: 41, Milk: 27, Cups: 37
+2026-07-03 00:29:54 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:29:54 [INFO] [BARISTA] Barista-3 finished Order #39
+2026-07-03 00:29:54 [INFO] [COFFEE MACHINE] Barista-2 is using a coffee machine. 
+2026-07-03 00:29:54 [INFO] [BARISTA] Barista-2 started preparing Order #41
+2026-07-03 00:29:54 [INFO] [QUEUE] Order #43 removed from queue. Current queue: 7/10
+2026-07-03 00:29:54 [INFO] [BARISTA] Barista-3 picked Order #43
+2026-07-03 00:29:54 [INFO] [INVENTORY] Barista-3 took ingredients for Order #43 (ESPRESSO)
+2026-07-03 00:29:54 [INFO] [INVENTORY] Current Stock -> Coffee: 39, Milk: 27, Cups: 36
+2026-07-03 00:29:55 [INFO] [COFFEE MACHINE] Barista-1 released a coffee machine.
+2026-07-03 00:29:55 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:29:55 [INFO] [BARISTA] Barista-4 started preparing Order #42
+2026-07-03 00:29:55 [INFO] [BARISTA] Barista-1 finished Order #40
+2026-07-03 00:29:55 [INFO] [QUEUE] Order #44 removed from queue. Current queue: 6/10
+2026-07-03 00:29:55 [INFO] [BARISTA] Barista-1 picked Order #44
+2026-07-03 00:29:55 [INFO] [INVENTORY] Barista-1 took ingredients for Order #44 (ESPRESSO)
+2026-07-03 00:29:55 [INFO] [INVENTORY] Current Stock -> Coffee: 37, Milk: 27, Cups: 35
+2026-07-03 00:29:56 [INFO] [COFFEE MACHINE] Barista-2 released a coffee machine.
+2026-07-03 00:29:56 [INFO] [BARISTA] Barista-2 finished Order #41
+2026-07-03 00:29:56 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:56 [INFO] [BARISTA] Barista-3 started preparing Order #43
+2026-07-03 00:29:56 [INFO] [QUEUE] Order #45 removed from queue. Current queue: 5/10
+2026-07-03 00:29:56 [INFO] [BARISTA] Barista-2 picked Order #45
+2026-07-03 00:29:56 [INFO] [INVENTORY] Barista-2 took ingredients for Order #45 (ESPRESSO)
+2026-07-03 00:29:56 [INFO] [INVENTORY] Current Stock -> Coffee: 35, Milk: 27, Cups: 34
+2026-07-03 00:29:57 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:29:57 [INFO] [COFFEE MACHINE] Barista-1 is using a coffee machine. 
+2026-07-03 00:29:57 [INFO] [BARISTA] Barista-3 finished Order #43
+2026-07-03 00:29:57 [INFO] [BARISTA] Barista-1 started preparing Order #44
+2026-07-03 00:29:57 [INFO] [QUEUE] Order #46 removed from queue. Current queue: 4/10
+2026-07-03 00:29:57 [INFO] [BARISTA] Barista-3 picked Order #46
+2026-07-03 00:29:57 [INFO] [INVENTORY] Barista-3 took ingredients for Order #46 (LATTE)
+2026-07-03 00:29:57 [INFO] [INVENTORY] Current Stock -> Coffee: 31, Milk: 25, Cups: 33
+2026-07-03 00:29:58 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:29:58 [INFO] [BARISTA] Barista-4 finished Order #42
+2026-07-03 00:29:58 [INFO] [COFFEE MACHINE] Barista-2 is using a coffee machine. 
+2026-07-03 00:29:58 [INFO] [BARISTA] Barista-2 started preparing Order #45
+2026-07-03 00:29:58 [INFO] [QUEUE] Order #47 removed from queue. Current queue: 3/10
+2026-07-03 00:29:58 [INFO] [BARISTA] Barista-4 picked Order #47
+2026-07-03 00:29:58 [INFO] [INVENTORY] Barista-4 took ingredients for Order #47 (AMERICANO)
+2026-07-03 00:29:58 [INFO] [INVENTORY] Current Stock -> Coffee: 29, Milk: 25, Cups: 32
+2026-07-03 00:29:58 [INFO] [COFFEE MACHINE] Barista-1 released a coffee machine.
+2026-07-03 00:29:58 [INFO] [BARISTA] Barista-1 finished Order #44
+2026-07-03 00:29:58 [INFO] [QUEUE] Order #48 removed from queue. Current queue: 2/10
+2026-07-03 00:29:58 [INFO] [BARISTA] Barista-1 picked Order #48
+2026-07-03 00:29:58 [INFO] [INVENTORY] Barista-1 took ingredients for Order #48 (ESPRESSO)
+2026-07-03 00:29:58 [INFO] [INVENTORY] Current Stock -> Coffee: 27, Milk: 25, Cups: 31
+2026-07-03 00:29:58 [INFO] [COFFEE MACHINE] Barista-3 is using a coffee machine. 
+2026-07-03 00:29:58 [INFO] [BARISTA] Barista-3 started preparing Order #46
+2026-07-03 00:29:59 [INFO] [COFFEE MACHINE] Barista-2 released a coffee machine.
+2026-07-03 00:29:59 [INFO] [BARISTA] Barista-2 finished Order #45
+2026-07-03 00:29:59 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:29:59 [INFO] [BARISTA] Barista-4 started preparing Order #47
+2026-07-03 00:29:59 [INFO] [QUEUE] Order #49 removed from queue. Current queue: 1/10
+2026-07-03 00:29:59 [INFO] [BARISTA] Barista-2 picked Order #49
+2026-07-03 00:29:59 [INFO] [INVENTORY] Barista-2 took ingredients for Order #49 (LATTE)
+2026-07-03 00:29:59 [INFO] [INVENTORY] Current Stock -> Coffee: 23, Milk: 23, Cups: 30
+2026-07-03 00:30:01 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:30:01 [INFO] [BARISTA] Barista-4 finished Order #47
+2026-07-03 00:30:01 [INFO] [COFFEE MACHINE] Barista-1 is using a coffee machine. 
+2026-07-03 00:30:01 [INFO] [BARISTA] Barista-1 started preparing Order #48
+2026-07-03 00:30:01 [INFO] [QUEUE] Order #50 removed from queue. Current queue: 0/10
+2026-07-03 00:30:01 [INFO] [BARISTA] Barista-4 picked Order #50
+2026-07-03 00:30:01 [INFO] [INVENTORY] Barista-4 took ingredients for Order #50 (CAPPUCCINO)
+2026-07-03 00:30:01 [INFO] [INVENTORY] Current Stock -> Coffee: 20, Milk: 22, Cups: 29
+2026-07-03 00:30:01 [INFO] [COFFEE MACHINE] Barista-3 released a coffee machine.
+2026-07-03 00:30:01 [INFO] [BARISTA] Barista-3 finished Order #46
+2026-07-03 00:30:01 [INFO] [COFFEE MACHINE] Barista-2 is using a coffee machine. 
+2026-07-03 00:30:01 [INFO] [BARISTA] Barista-2 started preparing Order #49
+2026-07-03 00:30:02 [INFO] [COFFEE MACHINE] Barista-1 released a coffee machine.
+2026-07-03 00:30:02 [INFO] [COFFEE MACHINE] Barista-4 is using a coffee machine. 
+2026-07-03 00:30:02 [INFO] [BARISTA] Barista-4 started preparing Order #50
+2026-07-03 00:30:02 [INFO] [BARISTA] Barista-1 finished Order #48
+2026-07-03 00:30:04 [INFO] [COFFEE MACHINE] Barista-4 released a coffee machine.
+2026-07-03 00:30:04 [INFO] [BARISTA] Barista-4 finished Order #50
+2026-07-03 00:30:04 [INFO] [COFFEE MACHINE] Barista-2 released a coffee machine.
+2026-07-03 00:30:04 [INFO] [BARISTA] Barista-2 finished Order #49
+2026-07-03 00:30:04 [INFO] [SUPPLIER] stopped.
+2026-07-03 00:30:04 [INFO] [BARISTA] Barista-4 stopped.
+2026-07-03 00:30:04 [INFO] [BARISTA] Barista-1 stopped.
+2026-07-03 00:30:04 [INFO] [BARISTA] Barista-2 stopped.
+2026-07-03 00:30:04 [INFO] [BARISTA] Barista-3 stopped.
+2026-07-03 00:30:04 [INFO] ========== FINAL REPORT ==========
+2026-07-03 00:30:04 [INFO] Total orders produced : 50
+2026-07-03 00:30:04 [INFO] Total orders processed: 50
+2026-07-03 00:30:04 [INFO] Orders remaining in queue: 0
+2026-07-03 00:30:04 [INFO] Coffee machine usages: 50
+2026-07-03 00:30:04 [INFO] System check: PASSED (No lost or duplicated orders)
+2026-07-03 00:30:04 [INFO] Final inventory -> Coffee Beans: 20, Milk: 22, Cups: 29
+2026-07-03 00:30:04 [INFO] ==================================
+2026-07-03 00:30:04 [INFO] Cafe simulation completed successfully.

@@ -13,7 +13,7 @@ public class LoggerProcess {
     private static final int PORT = 5000;
 
     private static final String LOG_PATH =
-            "src/logs/cafe.log";
+            "logs/cafe.log";
 
     public static void main(String[] args) {
 
