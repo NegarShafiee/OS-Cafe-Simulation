@@ -73,9 +73,7 @@ public class LoggerProcess {
             reader.close();
             socket.close();
 
-        }
-
-        catch (Exception e) {
+        } catch (Exception e) {
 
             System.out.println(
                     "[LOGGER PROCESS] " +
